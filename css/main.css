@@ -1,0 +1,163 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header{
+	background-color: #191970;
+  	font-size: 16px;
+  	font-family: 'Raleway', sans-serif;
+  	margin-top:0; 
+  	position: fixed;
+  	width: 100%;
+  	height: 80px;
+ 	z-index: 1;
+ 	text-align: center;
+
+}
+
+ a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0px;
+  padding: 30px;
+ }
+ /*posicion del cursor navbar*/
+ a:hover {
+  background-color: #1E2148;
+  height: 78px;
+ }
+
+#home{
+
+	background-color: #48D1CC;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:50; 
+	text-align: center;
+}
+
+#prt, #star, #contac, #contac1{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.row{
+	padding: 70px;
+}
+
+#about{
+	background-color: #48D1CC;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	left right: 50px;
+}
+
+.botton {
+    background-color: #18ba9a;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border: solid white 1px;
+    margin-bottom: 80px;
+}
+.botton:hover{
+  background-color: #009485;
+}
+
+
+.button{
+    background-color: #18ba9a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    float: left;
+}
+.button:hover{
+  background-color: #2b3d4f;
+}
+
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: #2b3d4f;
+    color: white;
+}
+
+
+/* formulario */
+.contacto h2{
+    text-align: center;
+}
+/*estrellita*/
+.contacto p{
+    text-align: center;
+}
+/*linea de la derecha 4*/
+ .line1{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 540px;
+ }
+ /*linea izquierda 4*/
+ .line2{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 680px;
+}
+
+input[type=text] {
+    width: 130%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+}
+
+textarea {
+    width: 130%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+    border-bottom: 1px;
+    
+}
+
+#fin, #fin1, #fin2{
+
+    padding: 15px 25px;
+	background-color: #778899;
+}
+
